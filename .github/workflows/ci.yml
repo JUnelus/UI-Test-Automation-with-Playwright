@@ -13,15 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4  
+  # Updated to v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5  # Updated to v5
       with:
         python-version: '3.8'
 
     - name: Install Node.js 20
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4  # Updated to v4
       with:
         node-version: '20'
 
