@@ -8,6 +8,8 @@ This project demonstrates a simple UI test automation framework using Playwright
 - Tests for sample website workflows
 - Scalable and maintainable test structure
 
+![img.png](img.png)
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -58,6 +60,7 @@ This project is integrated with GitHub Actions for continuous testing on push an
 
 ### Screenshots
 Test execution generates screenshots saved in the screenshots/ directory for debugging purposes.
+![homepage.png](screenshots%2Fhomepage.png)
 
 ### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any suggestions or improvements.
