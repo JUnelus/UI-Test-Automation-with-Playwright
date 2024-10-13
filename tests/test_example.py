@@ -19,5 +19,5 @@ def test_navigation(browser_context):
     page = browser_context.new_page()
     page.goto("https://example.com")
     page.click("text=More information...")
-    assert page.url == "https://www.iana.org/domains/reserved"
+    assert page.url == "https://www.iana.org/help/example-domains"
     page.screenshot(path="screenshots/navigation.png")
